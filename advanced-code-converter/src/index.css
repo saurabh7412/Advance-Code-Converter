@@ -1,0 +1,33 @@
+:root {
+ 
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(7, 41, 176, 0.968);
+  background-color: #C5CAE9;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+body {
+  /* background-image: url(https://img.freepik.com/free-vector/dark-wavy-colors-background_23-2148403785.jpg); */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+
+}
+
+@media (max-width: 767px) {
+  body {
+    background-size: contain;
+  }
+}
+
+

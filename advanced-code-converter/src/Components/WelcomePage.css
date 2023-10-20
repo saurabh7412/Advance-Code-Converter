@@ -1,0 +1,61 @@
+/* WelcomePage.css */
+
+/* Base styles */
+.welcome-container {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    color: grey;
+
+  }
+  
+  /* Styles for PC/Desktop version */
+  @media (min-width: 768px) {
+    .welcome-container {
+      width: 70%;
+      margin: auto;
+      padding: 150px;
+    }
+  }
+  
+  /* Styles for tablet version (adjust breakpoints accordingly) */
+  @media (max-width: 767px) {
+    .welcome-container {
+      padding: 100px;
+    }
+  }
+  
+  /* Styles for mobile version (adjust breakpoints accordingly) */
+  @media (max-width: 480px) {
+    .welcome-container {
+      padding: 50px;
+    }
+  }
+  
+  /* Glowing text effect */
+  .glowing-text {
+    font-size: 45px;
+    background: linear-gradient(45deg, #ff6600, #00eaff, #ff3300, #ff9966); /* Darker color combination */
+    background-size: 400%;
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradient 15s linear infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  /* Additional styling for the <p> tag can be added here */
+  
